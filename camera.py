@@ -6,9 +6,9 @@ Based on:
   - “Changing Colorspaces” tutorial, OpenCV-Python Tutorials — using cvtColor, HSV thresholding, inRange
 
 Improvements / modifications in this version:
-  1. Added morphological opening/closing (kernel) to clean up noise before contour detection.  
-  2. Enforced a minimum area threshold (`MIN_AREA`) to ignore small spurious contours.  
-  3. Blurs the frame (Gaussian) before converting to HSV to reduce high-frequency noise.  
+- Added morphological opening/closing to clean up noise before contour detection.  
+- Enforced a minimum area threshold  to ignore small spurious contours.  
+- Gaussian blurs the frame before converting to HSV to reduce high-frequency noise.  
 
 """
 
