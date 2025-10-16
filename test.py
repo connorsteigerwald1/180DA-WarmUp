@@ -3,5 +3,5 @@ if __name__ == '__main__':
     if x == "ECE 180":
         print(x+ " is the best class ever")
     else:
-        print("Bruins are the Best!!!")
+        print("Bruins are the Best!!!!")
 
